@@ -11,8 +11,7 @@ def remove_audio(video_path, output_path):
     video_without_audio.close()
 
 # Example usage
-input = ['v1.mp4','v2.mp4','v3.mp4','v4.mp4','v5.mp4','v6.mp4']
-output = ['v1o.mp4','v2o.mp4','v3o.mp4','v4o.mp4','v5o.mp4','v6o.mp4']
+input = 'v1.mp4'
+output = 'v1o.mp4'
 
-for i in range(6):
-    remove_audio(input[i], output[i])
+remove_audio(input[i], output[i])
